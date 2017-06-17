@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_layout_padding">16dp</dimen>
+    <dimen name="my_layout_padding_large">32dp</dimen>
+    <dimen name="my_button_space">16dp</dimen>
+    <dimen name="my_text_size">18sp</dimen>
+    <dimen name="my_text_size_small">14sp</dimen>
+    <dimen name="my_text_size_large">24sp</dimen>
+    <dimen name="my_view_margin">10dp</dimen>
+    <dimen name="my_view_margin_small">6dp</dimen>
+</resources>

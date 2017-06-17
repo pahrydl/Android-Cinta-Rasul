@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="@dimen/my_layout_padding_large" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/my_view_margin"
+        android:text="Setting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/my_text_size_large"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/ckbAyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my_view_margin"
+        android:layout_marginRight="@dimen/my_view_margin"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/list_back2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Ayat"
+        android:textSize="@dimen/my_text_size" />
+
+    <CheckBox
+        android:id="@+id/ckbEjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my_view_margin"
+        android:layout_marginRight="@dimen/my_view_margin"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/list_back2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Ejaan"
+        android:textSize="@dimen/my_text_size" />
+
+    <CheckBox
+        android:id="@+id/ckbTerjemah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my_view_margin"
+        android:layout_marginRight="@dimen/my_view_margin"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/list_back2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Terjemah"
+        android:textSize="@dimen/my_text_size" />
+
+</LinearLayout>

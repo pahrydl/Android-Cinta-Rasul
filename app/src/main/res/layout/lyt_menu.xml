@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="@dimen/my_layout_padding_large" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/my_view_margin"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnRawi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my_layout_padding_large"
+        android:background="@drawable/button_drawable2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Rawi Shimtud Durar"
+        android:textSize="@dimen/my_text_size" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/button_drawable2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Setting"
+        android:textSize="@dimen/my_text_size" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/button_drawable2"
+        android:padding="@dimen/my_view_margin"
+        android:text="About"
+        android:textSize="@dimen/my_text_size" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my_view_margin"
+        android:background="@drawable/button_drawable2"
+        android:padding="@dimen/my_view_margin"
+        android:text="Exit"
+        android:textSize="@dimen/my_text_size" />
+
+</LinearLayout>

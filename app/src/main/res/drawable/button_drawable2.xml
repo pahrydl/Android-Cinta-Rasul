@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    		<corners android:radius="20dip" />
+	      	<gradient
+		        android:angle="270"
+		        android:centerY="0.7"
+		        android:endColor="#77AA44"
+		        android:centerColor="#88CC77"
+		        android:startColor="#AADDAA" />
+	      	<stroke android:width="5px" android:color="#DBEDD3"/>
+		</shape>
+	</item> <!-- pressed -->
+	
+    <item android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    		<corners android:radius="20dip" />
+	      	<gradient
+		        android:angle="270"
+		        android:centerY="0.7"
+		        android:endColor="#669933"
+		        android:centerColor="#77BB66"
+		        android:startColor="#99CC99" />
+	      	<stroke android:width="5px" android:color="#DBEDD3"/>
+		</shape>
+	</item> <!-- focused -->
+	
+    <item>
+        
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    		<corners android:radius="20dip" />
+	      	<gradient
+		        android:angle="270"
+		        android:centerY="0.7"
+		        android:endColor="#669933"
+		        android:centerColor="#77BB66"
+		        android:startColor="#99CC99" />
+	      	<stroke android:width="5px" android:color="#DBEDD3"/>
+		</shape>
+        
+    </item> <!-- default -->
+    
+</selector>
+
+
+
